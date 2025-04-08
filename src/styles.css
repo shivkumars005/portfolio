@@ -1,0 +1,92 @@
+/* Smooth transitions for theme toggle and hover effects */
+body, .portfolio-container {
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+  
+  .portfolio-container a {
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Navbar link hover effect */
+  .nav-link:hover {
+    text-decoration: underline;
+    color: #0dcaf0 !important; /* Bootstrap info color */
+  }
+  
+  /* Highlight active nav link if needed (optional logic) */
+  .nav-link.active {
+    font-weight: bold;
+  }
+  
+  /* Blog card customization */
+  #blog .card {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Button hover animations */
+  .btn:hover,
+  .btn-outline-info:hover,
+  .btn-outline-dark:hover {
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  }
+  
+  /* Skills image hover animation */
+  #skills img:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Contact buttons perfectly aligned */
+  #contact .d-flex a {
+    min-width: 180px;
+    text-align: center;
+  }
+  
+  /* Dark theme overrides */
+  .bg-dark,
+  .bg-black,
+  .bg-secondary {
+    color: #e0e0e0;
+  }
+  
+  .bg-dark .nav-link,
+  .bg-black .nav-link,
+  .bg-secondary .nav-link {
+    color: #ffffff !important;
+  }
+  
+  .bg-dark .card,
+  .bg-black .card,
+  .bg-secondary .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #444;
+  }
+  
+  .bg-dark .btn-outline-dark {
+    color: #fff;
+    border-color: #bbb;
+  }
+  
+  .bg-dark .btn-outline-dark:hover {
+    background-color: #bbb;
+    color: #000;
+  }
+  
+  /* Footer styling */
+  footer {
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+  
+  /* Floating button animation */
+  .btn,
+  .card,
+  img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
