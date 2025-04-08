@@ -188,28 +188,28 @@ export default function Portfolio() {
         {
           title: "CineHeist - A Movies Recommendation System",
           description: "Machine learning model that suggests movies based on the title or the plot entered by the user.",
-          image: "https://assets.grok.com/users/47c2e3fc-1dbb-495a-99ba-4881f2fe48aa/generated/dpAJbFmbcxUUjVVu/image.jpg",
+          image: "public\images\CineHeist.jpg",
           tags: ["Machine Learning", "Python", "Scikit-learn", "AI"],
           link: "https://github.com/shivkumars005/moviesrecommend" 
         },
         {
           title: "Weather Application",
           description: "Application developed to give the real time weather updates to the user.",
-          image: "https://assets.grok.com/users/47c2e3fc-1dbb-495a-99ba-4881f2fe48aa/generated/fqP62nmyx8orUyIU/image.jpg",
+          image: "public\images\WeatherBySKS.jpg",
           tags: ["HTML", "CSS", "JS", "API"],
           link: "https://github.com/shivkumars005/weather"
         },
         {
           title: "CropConnect AI",
           description: "An application developed to help illiterate farmers to get real time market price alerts.",
-          image: "https://assets.grok.com/users/47c2e3fc-1dbb-495a-99ba-4881f2fe48aa/generated/rIb4CZ4iX1Cl9JsQ/image.jpg",
+          image: "public\images\cropconnect.jpg",
           tags: ["HTML", "CSS", "JS", "API", "Machine learning"],
           link: "https://github.com/shivkumars005/CropConnectAI"
         },
         {
           title: "AI Doctor",
           description: "Application to generate patient's discharge summaries using AI.",
-          image: "https://assets.grok.com/users/47c2e3fc-1dbb-495a-99ba-4881f2fe48aa/generated/KYCr9TiUer3zDSCe/image.jpg",
+          image: "public\images\AI-Doctor.jpg",
           tags: ["Machine learning", "Hospitals", "Streamlit"],
           link: "https://github.com/shivkumars005/AIDischargeSummary"
         }
