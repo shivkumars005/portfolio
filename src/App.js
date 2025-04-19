@@ -47,7 +47,7 @@ export default function Portfolio() {
       image: '/images/WeatherBySKS.jpg',
       tags: ['HTML', 'CSS', 'JS', 'API'],
       githubLink: 'https://github.com/shivkumars005/weather',
-      liveLink: 'https://shivakumarsouta-portfolio.vercel.app'
+      liveLink: 'https://weatherappbysks.netlify.app/'
     },
     {
       title: 'SmartDischarge',
