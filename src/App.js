@@ -31,7 +31,7 @@ export default function Portfolio() {
       image: '/images/CineHeist.jpg',
       tags: ['Machine Learning', 'Python', 'Scikit-learn', 'AI'],
       githubLink: 'https://github.com/shivkumars005/moviesrecommend',
-      liveLink: 'https://shivakumarsouta-portfolio.vercel.app'
+      liveLink: 'https://cineheistbysk.streamlit.app'
     },
     {
       title: 'CropConnect AI',
