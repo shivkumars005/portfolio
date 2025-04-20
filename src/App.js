@@ -56,6 +56,14 @@ export default function Portfolio() {
       tags: ['HTML', 'CSS', 'JavaScript', 'Flask', 'Artificial Intelligence'],
       githubLink: 'https://github.com/shivkumars005/SmartDischarge',
       liveLink: 'https://smartdischarge.onrender.com/' 
+    },
+    {
+      title: 'IPL Win Predictor',
+      description: "Machine learning model to predict the win percentages of IPL teams in a match using AI.",
+      image: '/images/IplWin.jpg',
+      tags: ['Machine Learning', 'Python', 'Scikit-learn', 'AI'],
+      githubLink: 'https://github.com/shivkumars005/IPL-Win-Predictor',
+      liveLink: 'https://ipl-win-predictor-by-sk.streamlit.app/' 
     }
   ];
 
