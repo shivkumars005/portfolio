@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaEnvelope, FaSun, FaMoon, FaDownload } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import ContactForm from './components/ContactForm';
+
 
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(true);
@@ -39,7 +41,7 @@ export default function Portfolio() {
       image: '/images/cropconnect.jpg',
       tags: ['HTML', 'CSS', 'JavaScript', 'API', 'Artificial Intelligence'],
       githubLink: 'https://github.com/shivkumars005/CropConnectAI-App',
-      liveLink: 'https://cropconnectai.onrender.com' 
+      liveLink: 'https://cropconnectai.onrender.com'
     },
     {
       title: 'Weather Application',
@@ -55,7 +57,7 @@ export default function Portfolio() {
       image: '/images/SmartDischarge.jpg',
       tags: ['HTML', 'CSS', 'JavaScript', 'Flask', 'Artificial Intelligence'],
       githubLink: 'https://github.com/shivkumars005/SmartDischarge',
-      liveLink: 'https://smartdischarge.onrender.com/' 
+      liveLink: 'https://smartdischarge.onrender.com/'
     },
     {
       title: 'IPL Win Predictor',
@@ -63,7 +65,7 @@ export default function Portfolio() {
       image: '/images/IplWin.jpg',
       tags: ['Machine Learning', 'Python', 'Scikit-learn', 'AI'],
       githubLink: 'https://github.com/shivkumars005/IPL-Win-Predictor',
-      liveLink: 'https://ipl-win-predictor-by-sk.streamlit.app/' 
+      liveLink: 'https://ipl-win-predictor-by-sk.streamlit.app/'
     }
   ];
 
@@ -252,10 +254,10 @@ export default function Portfolio() {
               <div className="card-body">
                 <h5 className="card-title">Tech Tales</h5>
                 <p className="card-text">Sharing insights, tutorials, and stories from my tech journey.</p>
-                <a 
-                  href="https://techtalesbyshivakumar.blogspot.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
+                <a
+                  href="https://techtalesbyshivakumar.blogspot.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`btn ${darkMode ? 'btn-outline-light' : 'btn-outline-primary'} px-4 py-2`}
                 >
                   Visit Blog
@@ -277,44 +279,51 @@ export default function Portfolio() {
             </p>
           </div>
 
-          <div className="d-flex justify-content-center">
-            <div className={`p-5 rounded-4 ${darkMode ? 'bg-dark text-light' : 'bg-white shadow'} w-75`}>
-              <h4 className="fw-bold mb-4">Contact Information</h4>
+          <div className="row g-4 justify-content-center">
+            <div className="col-md-6">
+              <div className={`p-4 rounded-4 ${darkMode ? 'bg-dark text-light' : 'bg-white shadow'}`}>
+                <h4 className="fw-bold mb-4">Contact Information</h4>
 
-              <div className="mb-3 d-flex align-items-start gap-3">
-                <i className="fas fa-envelope fa-lg text-primary"></i>
-                <div>
-                  <strong>Email</strong>
-                  <p className="mb-0">shivakumarsouta18@gmail.com</p>
+                <div className="mb-3 d-flex align-items-start gap-3">
+                  <i className="fas fa-envelope fa-lg text-primary"></i>
+                  <div>
+                    <strong>Email</strong>
+                    <p className="mb-0">shivakumarsouta18@gmail.com</p>
+                  </div>
+                </div>
+
+                <div className="mb-4 d-flex align-items-start gap-3">
+                  <i className="fas fa-map-marker-alt fa-lg text-primary"></i>
+                  <div>
+                    <strong>Location</strong>
+                    <p className="mb-0">Hyderabad, Telangana, India</p>
+                  </div>
+                </div>
+
+                <div className="mt-4">
+                  <h5 className="fw-bold">Connect with me</h5>
+                  <div className="d-flex gap-4 mt-2">
+                    <a href="https://www.linkedin.com/in/shivakumarsouta" target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-linkedin fa-2x text-primary"></i>
+                    </a>
+                    <a href="https://x.com/soutashivakumar?t=N-gyupa5FaUjFjd5ycFQ6A&s=08" target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-twitter fa-2x text-primary"></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/163fycC6cD/" target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-facebook fa-2x text-primary"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
+            </div>
 
-              <div className="mb-4 d-flex align-items-start gap-3">
-                <i className="fas fa-map-marker-alt fa-lg text-primary"></i>
-                <div>
-                  <strong>Location</strong>
-                  <p className="mb-0">Hyderabad, Telangana, India</p>
-                </div>
-              </div>
-
-              <div className="mt-4">
-                <h5 className="fw-bold">Connect with me</h5>
-                <div className="d-flex gap-4 mt-2">
-                  <a href="https://www.linkedin.com/in/shivakumarsouta" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-linkedin fa-2x text-primary"></i>
-                  </a>
-                  <a href="https://x.com/soutashivakumar?t=N-gyupa5FaUjFjd5ycFQ6A&s=08" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-twitter fa-2x text-primary"></i>
-                  </a>
-                  <a href="https://www.facebook.com/share/163fycC6cD/" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-facebook fa-2x text-primary"></i>
-                  </a>
-                </div>
-              </div>
+            <div className="col-md-6">
+              <ContactForm darkMode={darkMode} />
             </div>
           </div>
         </div>
       </section>
+
 
       <footer className={`${darkMode ? 'bg-dark text-white' : 'bg-light text-dark'} py-4 mt-5`}>
         <div className="container d-flex justify-content-between align-items-center">
