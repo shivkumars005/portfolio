@@ -1,8 +1,8 @@
-#  Shiva Kumar Souta — Portfolio
+# Shiva Kumar Souta — Portfolio
 
 This is my personal portfolio website built with **React**, showcasing my skills, projects, and experience as a web developer. It's designed to reflect my work, personality, and ability to build modern, responsive web applications.
 
-🔗 **Live Site**: [shivakumarsouta-portfolio.vercel.app](https://shivakumarsouta-portfolio.vercel.app/)
+🔗 **Live Site**: <a href="https://shivakumarsouta-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">shivakumarsouta-portfolio.vercel.app</a>
 
 ---
 
@@ -24,7 +24,7 @@ This is my personal portfolio website built with **React**, showcasing my skills
 
 ---
 
-##  Getting Started
+## Getting Started
 
 To run this project locally:
 
@@ -38,5 +38,5 @@ npm start
 The app will start on http://localhost:3000
 
 ## Contact
-You can reach me via the contact form on the portfolio or directly at <a href="shivakumarsouta0@gmail.com" alt="My Email">Mail me</a>
-
+You can reach me via the contact form on the portfolio or directly at
+<a href="mailto:shivakumarsouta0@gmail.com" target="_blank" rel="noopener noreferrer">Mail me</a>
